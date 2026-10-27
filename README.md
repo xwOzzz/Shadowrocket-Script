@@ -14,10 +14,10 @@
 
 | 模块 | 说明 | 出处 | 上游更新 | 添加日期 |
 |---|---|---|---|---|
-| `modules/Advertising.sgmodule` | 去广告复写规则（规则自动生成，源仓库 MASTER 分支每日更新） | [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite/Shadowrocket/Advertising) | 2025-12-22 | 2026-10-08 |
+| `modules/Advertising.sgmodule` | 去广告复写规则：740 条 URL Rewrite 拦截规则＋698 个 MITM 主机名（共 1438 条），覆盖开屏广告、信息流广告、横幅与弹窗等；另对 6 个域名强制 HTTP 引擎；使用需开启 MITM | [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite/Shadowrocket/Advertising) | 2025-12-22 | 2026-10-08 |
 | `modules/GetCookie.sgmodule` | Cookie 获取辅助模块（9 条抓取规则：全家、Luka、什么值得买、叮咚买菜、慢慢买、贴吧；抓包前需安装并信任证书） | [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite/Shadowrocket/GetCookie) | 2025-07-12 | 2026-10-08 |
 
-> 转载说明：以上模块均转载自原作者仓库，已注明出处；模块内容以原仓库最新版为准，本仓库仅做收集整理。2026-10-23 已与上游核对：两个模块与上游 master 分支字节一致（blob SHA 完全相同），均为上游最新版本；上游最后变更仍为 Advertising 2025-12-22、GetCookie 2025-07-12，本次无需同步。
+> 转载说明：以上模块均转载自原作者仓库，已注明出处；模块内容以原仓库最新版为准，本仓库仅做收集整理。2026-10-27 已与上游核对：两个模块与上游 master 分支字节一致（blob SHA 完全相同），均为上游最新版本；上游最后变更仍为 Advertising 2025-12-22、GetCookie 2025-07-12，本次无需同步。
 
 ### 使用说明
 
